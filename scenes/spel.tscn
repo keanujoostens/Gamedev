@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://vrhfsfbv8w12"]
+
+[ext_resource type="PackedScene" uid="uid://jjru4yp8bepc" path="res://scenes/speler.tscn" id="1_p0u1j"]
+[ext_resource type="PackedScene" uid="uid://b80fphxckgbo7" path="res://scenes/grond.tscn" id="2_efcux"]
+[ext_resource type="PackedScene" uid="uid://bgmdx4p4rjilg" path="res://scenes/spike.tscn" id="3_f65rg"]
+
+[node name="Spel" type="Node2D" unique_id=667884042]
+
+[node name="Speler" parent="." unique_id=1198607938 instance=ExtResource("1_p0u1j")]
+
+[node name="Grond" parent="." unique_id=1779671882 instance=ExtResource("2_efcux")]
+position = Vector2(-18, 157)
+scale = Vector2(2, 1)
+
+[node name="Grond2" parent="." unique_id=60888475 instance=ExtResource("2_efcux")]
+position = Vector2(926, 2)
+
+[node name="Grond3" parent="." unique_id=1462815290 instance=ExtResource("2_efcux")]
+position = Vector2(1486, -153)
+
+[node name="Grond4" parent="." unique_id=1979265042 instance=ExtResource("2_efcux")]
+position = Vector2(2288, -158)
+
+[node name="Spike" parent="." unique_id=1480090486 instance=ExtResource("3_f65rg")]
+z_index = -1
+position = Vector2(-398, 73)
