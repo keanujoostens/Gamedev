@@ -9,18 +9,18 @@
 [node name="Speler" parent="." unique_id=1198607938 instance=ExtResource("1_p0u1j")]
 
 [node name="Grond" parent="." unique_id=1779671882 instance=ExtResource("2_efcux")]
-position = Vector2(-18, 157)
+position = Vector2(0, 7)
 scale = Vector2(2, 1)
 
 [node name="Grond2" parent="." unique_id=60888475 instance=ExtResource("2_efcux")]
-position = Vector2(926, 2)
+position = Vector2(169, -2)
 
 [node name="Grond3" parent="." unique_id=1462815290 instance=ExtResource("2_efcux")]
-position = Vector2(1486, -153)
+position = Vector2(334, -15)
 
 [node name="Grond4" parent="." unique_id=1979265042 instance=ExtResource("2_efcux")]
-position = Vector2(2288, -158)
+position = Vector2(512, -17)
 
 [node name="Spike" parent="." unique_id=1480090486 instance=ExtResource("3_f65rg")]
 z_index = -1
-position = Vector2(-398, 73)
+position = Vector2(-59, -9)

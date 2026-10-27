@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-
-const SPEED = 400.0
-const JUMP_VELOCITY = -800.0
+@onready var SPRITE : AnimatedSprite2D = $Sprite2D
+const SPEED = 100.0
+const JUMP_VELOCITY = -200.0
 var maximale_hp : int = 5
 var hp: int = 5
 signal hp_verandering(hp_dat_het_nu_is)
@@ -17,6 +17,7 @@ func shade_genomen():
 		hp_verandering.emit(hp)
 
 func _physics_process(delta: float) -> void:
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -35,4 +36,10 @@ func _physics_process(delta: float) -> void:
 	
 	if position.y > 400:
 		position = Vector2(0,0)
+		
+	if abs(velocity.x) > 40:
+		SPRITE.play("lopen")
+	else:
+		SPRITE.play("idle")
+	
 	move_and_slide()

@@ -16,13 +16,14 @@ script = ExtResource("1_8ryga")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1024123192]
 position = Vector2(0, -0.9999981)
 rotation = -1.5707964
-scale = Vector2(1.7506526, 1.1938545)
+scale = Vector2(0.35, 0.239)
 texture = SubResource("GradientTexture2D_7k7bx")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1446758376]
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=551911287]
+scale = Vector2(0.2, 0.2)
 shape = SubResource("RectangleShape2D_min7u")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
