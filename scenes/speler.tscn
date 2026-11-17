@@ -11,6 +11,7 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_peeca"]
 shader = ExtResource("2_fbncn")
+shader_parameter/Blink = false
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8ejfr"]
 atlas = ExtResource("2_peeca")
@@ -626,7 +627,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mmita")
 }],
-"loop": 0,
+"loop": 1,
 "name": &"lopen",
 "speed": 12.0
 }, {
@@ -768,7 +769,8 @@ script = ExtResource("1_i7q23")
 material = SubResource("ShaderMaterial_peeca")
 position = Vector2(0, -13)
 sprite_frames = SubResource("SpriteFrames_min7u")
-animation = &"omhoog"
+animation = &"pijn"
+frame_progress = 0.3219833
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=458068338]
 visible = false
