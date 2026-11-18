@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g2ljrei3wl7b"
-path="res://.godot/imported/Seeker_Void_Death_40x50_20f.png-4eafdab599d78d1e9ed6236274203fc9.ctex"
+uid="uid://c4v27mmmcatll"
+path="res://.godot/imported/Tiles.png-420bd0965ad90b5b431dc3cff5666ef2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Seeker_Void_Death_40x50_20f.png"
-dest_files=["res://.godot/imported/Seeker_Void_Death_40x50_20f.png-4eafdab599d78d1e9ed6236274203fc9.ctex"]
+source_file="res://assets/tilemap/Tiles.png"
+dest_files=["res://.godot/imported/Tiles.png-420bd0965ad90b5b431dc3cff5666ef2.ctex"]
 
 [params]
 

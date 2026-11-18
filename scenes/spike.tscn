@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://bgmdx4p4rjilg"]
 
 [ext_resource type="Script" uid="uid://dpdvscflsd6m" path="res://scenes/spike.gd" id="1_8ryga"]
+[ext_resource type="Shader" uid="uid://eccx51qecpw" path="res://scenes/spike.tres" id="2_7a7y0"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qrj1s"]
+shader = ExtResource("2_7a7y0")
 
 [sub_resource type="Gradient" id="Gradient_pe76i"]
 
@@ -8,12 +12,13 @@
 gradient = SubResource("Gradient_pe76i")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_min7u"]
-size = Vector2(76, 112)
+size = Vector2(29.999996, 69.99999)
 
 [node name="Spike" type="Node2D" unique_id=1779671882]
 script = ExtResource("1_8ryga")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1024123192]
+material = SubResource("ShaderMaterial_qrj1s")
 position = Vector2(0, -0.9999981)
 rotation = -1.5707964
 scale = Vector2(0.35, 0.239)
@@ -23,6 +28,7 @@ texture = SubResource("GradientTexture2D_7k7bx")
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=551911287]
+position = Vector2(0, 3)
 scale = Vector2(0.2, 0.2)
 shape = SubResource("RectangleShape2D_min7u")
 

@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" uid="uid://bwc7ycyh17vpl" path="res://scenes/speler.gd" id="1_i7q23"]
 [ext_resource type="Shader" uid="uid://clisk6mqtmg07" path="res://scenes/speler.tres" id="2_fbncn"]
-[ext_resource type="Texture2D" uid="uid://cnhc2kmv5p730" path="res://assets/Seeker_Void_Idle_30x30_24f.png" id="2_i7q23"]
-[ext_resource type="Texture2D" uid="uid://dkhutkcljvetc" path="res://assets/Seeker_Void_Attack1_90x50_8f.png" id="2_peeca"]
-[ext_resource type="Texture2D" uid="uid://g2ljrei3wl7b" path="res://assets/Seeker_Void_Death_40x50_20f.png" id="4_fbncn"]
-[ext_resource type="Texture2D" uid="uid://cvlwj8obxv233" path="res://assets/Seeker_Void_Run_30x30_10f.png" id="5_l2nsq"]
-[ext_resource type="Texture2D" uid="uid://dmj0wohpd8teh" path="res://assets/Seeker_Void_Hurt_55x80_9f.png" id="6_lplo0"]
-[ext_resource type="Texture2D" uid="uid://c37nireilr4oj" path="res://assets/Seeker_Void_JumpFall_30x30_28f.png" id="7_3n8en"]
+[ext_resource type="Texture2D" uid="uid://cnhc2kmv5p730" path="res://assets/player/Seeker_Void_Idle_30x30_24f.png" id="2_i7q23"]
+[ext_resource type="Texture2D" uid="uid://dkhutkcljvetc" path="res://assets/player/Seeker_Void_Attack1_90x50_8f.png" id="2_peeca"]
+[ext_resource type="Texture2D" uid="uid://g2ljrei3wl7b" path="res://assets/player/Seeker_Void_Death_40x50_20f.png" id="4_fbncn"]
+[ext_resource type="Texture2D" uid="uid://cvlwj8obxv233" path="res://assets/player/Seeker_Void_Run_30x30_10f.png" id="5_l2nsq"]
+[ext_resource type="Texture2D" uid="uid://dmj0wohpd8teh" path="res://assets/player/Seeker_Void_Hurt_55x80_9f.png" id="6_lplo0"]
+[ext_resource type="Texture2D" uid="uid://c37nireilr4oj" path="res://assets/player/Seeker_Void_JumpFall_30x30_28f.png" id="7_3n8en"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_peeca"]
 shader = ExtResource("2_fbncn")
